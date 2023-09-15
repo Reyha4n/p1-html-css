@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form action="TUI.html" method="get">
+    <div>
+        <label for="name">voornaam
+        <input type="text" name="name" id="name">
+    </label>
+    </div>
+    <div>
+        <label for="name">achternaam
+        <input type="text" name="name" id="name">
+        </label>
+    </div>
+    <div>
+        <label for="gender"> geslacht:</label>
+        <select id="gender" name="cars">
+          <option value="male">man</option>
+          <option value="female">vrouw</option>
+        </select>
+    </div>
+    <div>
+        <label for="naam">straatnaam + huisnummer</label>
+        <input type="text" name="straatnaam" id="straatnaam">
+    </div>
+    <div>
+        <label for="name">postcode</label>
+        <input type="text" naam="postcode" id="postcode">
+    </div>
+    <div>
+        <label for="name">stad</label>
+        <input type="text" naam="stad" id="stad">
+    </div>
+    <div>
+        <label for="name">land</label>
+        <input type="text" naam="land" id="land">
+    </div>
+    <div>
+        <label for="name">BSN-nummer</label>
+        <input type="number" naam="BSN-nummer" id="BSN-nummer" max="99999999" min="1">
+    </div>
+    <div>
+        <label for="name"> Vakantie land:</label>
+        <select id="Vland" name="vakantielanden">
+          <option value="LandA">Vakantieland A</option>
+          <option value="LandB">Vakantieland B</option>
+          <option value="LandC">Vakantieland C</option>
+          <option value="LandD">Vakantieland D</option>
+          <option value="LandE">Vakantieland E</option>
+          <option value="LandF">Vakantieland F</option>
+          <option value="LandG">Vakantieland G</option>
+          <option value="LandH">Vakantieland H</option>
+        </select>
+    </div>
+    <div>
+        <label for="date">Datum van vertrek</label>
+        <input type="date" name="date" id="date" minlength="13/09/2023">
+    </div>
+    <div>
+        <label for="date">Datum van terugkomst</label>
+        <input type="date" name="date" id="date" min="13/09/2023">
+    </div>
+    <div>
+        <label for="age">Aantal reisgenoten</label>
+        <input type="number" name="age" id="age" min="1" max="4">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="password">wachtwoord</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+<button type="submit">Verzend</button>
+
+</form>
+</body>
+</html>
