@@ -1,3 +1,15 @@
+.hero {
+    background-color: #074f54;
+    background-image: url("../p1-html-css/foto's/foto4.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
 h1 {
     color: blue;
     font-family: sans-serif;
@@ -21,7 +33,13 @@ h3 {
 }
 
 p {
-    color: #4D4D4D
+    border-style: outset;
+    border-width: 5px;
+    border-color: #0000ff;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    border-left: 30px;
 }
 header {
     font-weight: 900;
@@ -30,4 +48,8 @@ header {
 a {
     color: #8A2BE2;
     text-decoration: none;
+}
+
+header{
+    background-image: url("../foto4,.jpg")
 }
