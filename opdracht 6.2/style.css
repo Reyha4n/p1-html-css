@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    background: whitesmoke;
+    display: flex;
+    width: 900px;
+}
+
+.item1 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+.item2 {
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+.item3 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+.item4 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: 10px;
+    color: antiquewhite;
+}
