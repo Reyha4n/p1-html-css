@@ -1,5 +1,5 @@
 h1 {
-    color: blue;
+    color: red;
     font-family: sans-serif;
     font-style: italic;
     font-size: 24px;
@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-    color: #4D4D4D
+    color: black
 }
 header {
     font-weight: 900;
@@ -30,4 +30,12 @@ header {
 a {
     color: #8A2BE2;
     text-decoration: none;
+    
+}
+
+header {
+    background-image: url(../opdracht_4.1/img/diofield.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
