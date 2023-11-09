@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+
+  .div1 {
+    width:40%;
+    float: right;
+    margin-top: 50px;
+    font-size: medium;
+
+  }
+
+  .titlesub {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .div2 {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    font-size: medium;
+  }
+
+  .sqlh2 {
+    color: white;
+  }
+
+  .sqlpara {
+    color: white;
+  }
+
+  .headcolor {
+    color: white;
+  }
+
+  .paracolor {
+    color: white;
+  }
+
+  .javaheader {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .SQLhead1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .javapic {
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .div3 {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    font-size: medium;
+  }
+
+  .sqlpic {
+    width: 40%;
+    float: right;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .mainhtml {
+    background-color: white;
+  }
+
+  .javascriptmain {
+    background-color: black;
+  }
+
+  .sqlmain {
+    background-color: black;
+  }
+
+  .divphp {
+    width:40%;
+    float: right;
+    margin-top: 50px;
+    font-size: medium;
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+
+  .indexhead {
+    text-align: center;
+    vertical-align: center;
+    color: white;
+  }
+
+  .homepagina {
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
