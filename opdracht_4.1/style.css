@@ -34,8 +34,28 @@ a {
 }
 
 header {
-    background-image: url(../opdracht_4.1/img/diofield.jpeg);
+    width: 100vw;
+    height: 45vh;
+    background-image: url(../opdracht_4.1/img/games.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    
+}
+
+.headerparagraph {
+    color: white;
+}
+
+.headerh1 {
+    color: green;
+}
+
+.center {
+    width: 50vw;
+    height: 50vh;
+}
+
+article {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-width: 5px 5px 5px 10px;
 }
