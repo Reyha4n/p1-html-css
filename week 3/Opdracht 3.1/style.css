@@ -180,3 +180,44 @@
     height: 95vh;
     width: 100vw;
   }
+
+  .ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .li {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1rem;
+  }
+
+  li a {
+    color: #E9E9E9;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9E9E9;
+    min-width: 20vw;
+    z-index: 1;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0, 2);
+  }
+
+  .dropdown-content a {
+    color: #00a8c7;
+    padding: 0.8rem 1rem;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
