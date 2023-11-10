@@ -140,13 +140,19 @@
 
   .indexhead {
     text-align: center;
-    vertical-align: center;
-    color: white;
+   top: 50%;
+   font-weight: normal;
   }
 
   .homepagina {
-    background-image: url(background.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
+   width: 100vw;
+   height: 105vh;
+  }
+
+  .footerparagraph {
+    text-align: center;
+  }
+
+  .bodyindex {
+    background-color: black;
   }
