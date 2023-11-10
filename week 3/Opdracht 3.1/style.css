@@ -12,7 +12,7 @@
   
   nav {
     display: flex;
-    width: 100%;
+    width: 100vw;
     padding: 2rem;
     min-height: 10vh;
     align-items: center;
@@ -20,6 +20,9 @@
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   nav ul {
     display: flex;
@@ -128,7 +131,7 @@
 
   footer {
     display: flex;
-    width: 100%;
+    width: 100vw;
     padding: 2rem;
     min-height: 10vh;
     align-items: center;
@@ -136,12 +139,17 @@
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   .indexhead {
     text-align: center;
    top: 50%;
    font-weight: normal;
+   color: white;
+   float: right;
   }
 
   .homepagina {
@@ -155,4 +163,20 @@
 
   .bodyindex {
     background-color: black;
+  }
+
+  .main {
+    margin-top: 5rem;
+  }
+
+  .startdiv {
+    width: 100%;
+    float: center;
+    margin-top: 200px;
+    font-size: large;
+  }
+
+  .imgback {
+    height: 95vh;
+    width: 100vw;
   }
