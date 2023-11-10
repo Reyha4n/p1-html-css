@@ -4,15 +4,14 @@
     display: flex;
     width: 1200px;
     height: 1200px;
-    -ms-flex-align: start;
-    flex-direction: row-reverse;
+    justify-content: space-between;
+
 }
 
 .item1 {
     width: 200px;
     height: 200px;
     background: blue;
-    margin: 10px;
     color: antiquewhite;
 }
 
@@ -20,7 +19,6 @@
     width: 200px;
     height: 200px;
     background: black;
-    margin: 10px;
     color: antiquewhite;
 }
 
@@ -28,7 +26,6 @@
     width: 200px;
     height: 200px;
     background: red;
-    margin: 10px;
     color: antiquewhite;
 }
 
@@ -36,6 +33,5 @@
     width: 200px;
     height: 200px;
     background: green;
-    margin: 10px;
     color: antiquewhite;
 }
